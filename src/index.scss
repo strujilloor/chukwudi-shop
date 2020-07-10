@@ -1,0 +1,39 @@
+:root {
+  --white: #FFF;
+  --gray: #3d3d3d;
+  --gray2: #6F6F6F;
+  --gray3: #e1e1e1;
+
+  --app-display: flex;
+  --app-flex-direction: row;
+
+  --section-w: 70%;
+  --aside-w: 30%;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-size: 1.6rem; /* ...16px  */
+  line-height: 1.5;
+  // font-family: 'Titillium Web', sans-serif;
+}
+
+.app {
+  display: var(--app-display);
+  flex-direction: var(--app-flex-direction);
+
+  section {
+    width: var(--section-w);
+  }
+
+  aside {
+    width: var(--aside-w);
+  }
+}
+
