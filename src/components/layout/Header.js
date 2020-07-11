@@ -11,7 +11,7 @@ const Header = () => {
             <h1 className="logo">Chukwudi</h1>
             {/* Search */}
             <div className="search">
-                <div className="logo-container">
+                <div className="icon-container">
                     <img src={search} alt="search-icon" />
                 </div>
                 

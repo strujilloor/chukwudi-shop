@@ -8,11 +8,15 @@
   --app-display: flex;
   --app-flex-direction: row;
 
-  --section-w: 70%;
-  --aside-w: 30%;
+  --section-w: 75%;
+  --aside-w: 25%;
 
   --header-display: flex;
   --header-flex-direction: row;
+
+  @media screen and (max-width: 100px) {
+    
+  }
 }
 
 html {
@@ -26,6 +30,7 @@ body {
   font-size: 1.6rem; /* ...16px  */
   line-height: 1.5;
   // font-family: 'Titillium Web', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .app {
@@ -47,9 +52,20 @@ body {
   flex-direction: var(--header-flex-direction);
   flex-wrap: wrap;
   align-items: center; /* verticalmente */
+  // justify-content: space-evenly;
+  // padding: 0 1rem;
+  width: 90%;
+  margin: 0 auto;
 
   img {
-    width: 2.6rem;
+    width: 2.2rem;
+    margin-right: 2rem;
+  }
+
+  .logo {
+    font-size: 2.3rem;
+    font-weight: 600;
+    width: 30%;
   }
 
   .search {
@@ -63,11 +79,11 @@ body {
     border-radius: 1.5rem;
     width: 60%;
 
-    .logo-container {
+    .icon-container {
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 0 1rem;
+      padding: 0 1rem 0 1.8rem;
       img {
         width: 1.6rem;
       }
