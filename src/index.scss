@@ -56,6 +56,7 @@ body {
   // padding: 0 1rem;
   width: 90%;
   margin: 0 auto;
+  padding: 1vmin 0; /* * */
 
   img {
     width: 2.2rem;
@@ -100,5 +101,11 @@ body {
 
   }
 
+}
+
+.sidebar {
+  background-color: #FEFEFB;
+  height: 100vh;
+  border-left: 2px solid var(--search-bg);
 }
 
