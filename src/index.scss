@@ -5,10 +5,9 @@
   --gray3: #e1e1e1;
   --search-bg: #F9F9F8;
 
-  --app-display: flex;
   --app-flex-direction: row;
 
-  --section-w: 75%;
+  --section-w: 95%;
   --aside-w: 25%;
 
   --header-display: flex;
@@ -34,16 +33,18 @@ body {
 }
 
 .app {
-  display: var(--app-display);
+  display: flex;
   flex-direction: var(--app-flex-direction);
   flex-wrap: wrap;
 
   section {
-    width: var(--section-w);
+    // width: var(--section-w);
+    flex: 1 1 55%;
   }
 
   aside {
-    width: var(--aside-w);
+    // width: var(--aside-w);
+    flex: 1 1 32rem;
   }
 }
 
@@ -70,9 +71,10 @@ body {
   }
 
   .search {
+    flex: 1 1 5rem;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center; /*stretch*/
     // justify-content: center;
     height: 4.8rem;
