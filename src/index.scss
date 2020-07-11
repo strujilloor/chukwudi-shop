@@ -48,6 +48,10 @@ body {
   flex-wrap: wrap;
   align-items: center; /* verticalmente */
 
+  img {
+    width: 2.6rem;
+  }
+
   .search {
     display: flex;
     flex-direction: row;

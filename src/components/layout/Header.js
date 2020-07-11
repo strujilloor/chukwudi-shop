@@ -1,11 +1,12 @@
 import React from 'react';
 import search from '../../assets/icons/126474.svg';
+import hb from '../../assets/icons/hamburger-button.png'
 
 const Header = () => {
     return (
         <header className="header">
             {/* hamburguesa */}
-            <p>--</p>
+            <img src={hb} alt=""/>
             {/* Logo */}
             <h1 className="logo">Chukwudi</h1>
             {/* Search */}
