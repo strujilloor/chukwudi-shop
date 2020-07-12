@@ -1,9 +1,15 @@
+// @import "assets/scss/config/variables";
+@import "assets/scss/components/promo";
+
 :root {
   --white: #FFF;
   --gray: #3d3d3d;
   --gray2: #6F6F6F;
   --gray3: #e1e1e1;
   --search-bg: #F9F9F8;
+  --promo-bg: #FFF7EB;
+  --promo-color: #FF6324;
+  --promo-color2: #9F948C;
 
   --app-flex-direction: row;
 

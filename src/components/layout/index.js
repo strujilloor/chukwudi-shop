@@ -1,6 +1,7 @@
 import React from 'react';
 import Sidebar from './Sidebar';
 import Header from './Header';
+import Promo from '../Promo';
 
 const index = ({ children }) => {
     return (
@@ -10,6 +11,8 @@ const index = ({ children }) => {
                 <Header/>
                 {/* Content here */}
                 <main>
+                    {/* Promo here */}
+                    <Promo/>
                     { children }
                 </main>
             </section>
