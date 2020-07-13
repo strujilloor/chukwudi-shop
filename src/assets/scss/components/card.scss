@@ -1,0 +1,57 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    // margin: 1rem; /*borrar*/
+    flex: 1 1 30%;
+    max-width: 267px;
+    .image-container{
+        width: 100%;
+        border-radius: 20px;
+        position: relative;
+        img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            border-radius: 20px 20px 20px 21px;
+            object-fit: cover;
+            display: block;
+        }
+        div {
+            position: absolute;
+            bottom: 0px;
+            border-radius: 0 20px 0 20px;
+            background-color: #F9F9F8;
+            padding: 1rem;
+            font-weight: 600;
+            span{
+                font-weight: 300;
+            }
+        }
+    }
+    .name{
+
+    }
+    .details{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-right: 13rem;
+        font-size: 1.3rem;
+        & > p {
+            margin: 0;
+            color: #979797;
+        }
+
+        div {
+            width: 4rem;
+            p {
+                margin-left: 0.8rem;
+                display: inline;
+            }
+        }
+
+        img{
+            width: 1.3rem;
+        }
+    }
+}
