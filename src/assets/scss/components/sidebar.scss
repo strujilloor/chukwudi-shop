@@ -1,0 +1,90 @@
+.sidebar {
+    background-color: #FEFEFB;
+    height: 100vh;
+    border-left: 2px solid var(--search-bg);
+    .user{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        // padding: 8rem 0;
+        height: 10rem;
+        width: 90%;
+        margin: 0 auto;
+        img {
+            width: 2.2rem;
+        }
+        p {
+            padding: 1rem;
+            width: 4rem;
+            height: 4rem;
+            text-align: center;
+            background-color: #FFD543;
+            border-radius: 1rem;
+            margin-left: 2rem;
+        }
+    }
+    .order{
+        display: flex;
+        flex-direction: column;
+        h1 {
+            width: 90%;
+            margin: 0 auto;
+            margin-bottom: 4rem;
+        }
+        .info{
+            display: flex;
+            flex-direction: column;
+            background-color: #5439A3;
+            width: 90%;
+            margin: 0 auto;
+            border-radius: 3rem;
+            padding: 3rem;
+            p {
+                color: var(--white);
+            }
+            button {
+                background-color: transparent;
+                border: none;
+                color: #FED880;
+                cursor: pointer;
+                &:focus {
+                    border: none;
+                    outline: none;
+                }
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+            .direction{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .time{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                .value {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    .container-clock {
+                        background-color: #66489C;
+                        padding: 1rem;
+                        border-radius: 1rem;
+                        width: 4rem;
+                        height: 4rem;
+                        margin-right: 0.8rem;
+                        img {
+                            filter: invert(78%) sepia(62%) saturate(324%) hue-rotate(346deg) brightness(102%) contrast(99%);
+                        }
+                    }
+                    p {
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+        }
+    }
+}
+

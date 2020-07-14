@@ -2,6 +2,8 @@
 @import "assets/scss/components/promo";
 @import "assets/scss/components/card";
 @import "assets/scss/components/cards";
+@import "assets/scss/components/header";
+@import "assets/scss/components/sidebar";
 
 :root {
   --white: #FFF;
@@ -54,68 +56,3 @@ body {
     flex: 1 1 32rem;
   }
 }
-
-.header {
-  display: flex;
-  flex-direction: var(--header-flex-direction);
-  flex-wrap: wrap;
-  align-items: center; /* verticalmente */
-  width: 90%;
-  margin: 0 auto;
-  padding: 1vmin 0; /* * */
-
-  img {
-    width: 2.2rem;
-    margin-right: 2rem;
-  }
-
-  .logo {
-    font-size: 2.3rem;
-    font-weight: 600;
-    // width: 30%;
-    flex: 1 1 30%;
-  }
-
-  .search {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center; /*stretch*/
-    // justify-content: center;
-    height: 4.8rem;
-    background-color: var(--search-bg);
-    border-radius: 1.5rem;
-    flex: 1 1 60%;
-    width: 100%;
-
-    .icon-container {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 0 1rem 0 1.8rem;
-      img {
-        width: 1.6rem;
-      }
-    }
-
-    .search-input {
-      border: none;
-      background-color: inherit;
-      flex: 1 1 20%;
-      max-width: 70%;
-    }
-    .search-input:focus {
-      border: none;
-      outline: none;
-    }
-
-  }
-
-}
-
-.sidebar {
-  background-color: #FEFEFB;
-  height: 100vh;
-  border-left: 2px solid var(--search-bg);
-}
-
