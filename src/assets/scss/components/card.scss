@@ -8,6 +8,8 @@
         width: 100%;
         border-radius: 20px;
         position: relative;
+        height: 14rem;
+        overflow: hidden;
         img {
             width: 100%;
             max-width: 100%;
@@ -20,7 +22,7 @@
             position: absolute;
             bottom: 0px;
             border-radius: 0 20px 0 20px;
-            background-color: #F9F9F8;
+            background-color: #f9f9f8d6;
             padding: 1rem;
             font-weight: 600;
             span{
@@ -34,12 +36,13 @@
     .details{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        padding-right: 13rem;
+        // justify-content: space-between;
+        // padding-right: 13rem;
         font-size: 1.3rem;
         & > p {
             margin: 0;
             color: #979797;
+            margin-left: 1.2rem;
         }
 
         div {
