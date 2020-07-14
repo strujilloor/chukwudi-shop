@@ -86,5 +86,41 @@
             }
         }
     }
+    .products-list {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+        padding: 2rem 0;
+        .product {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            padding: 2.5rem 0;
+            .image-container {
+                width: 10rem;
+                // flex: 1 1 10rem;
+                // border-radius: 2rem;
+                overflow: hidden;
+                img {
+                    width: 100%;
+                    border-radius: 1rem;
+                }
+            }
+            .name{
+                flex: 1 1 10rem;
+                text-align: center;
+                font-weight: 600;
+                padding: 0 1rem;
+            }
+            .price {
+                // flex: 1 1 3rem;
+                width: 5rem;
+                text-align: right;
+                color: #979797;
+            }
+        }
+    }
 }
 

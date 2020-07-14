@@ -1,6 +1,8 @@
 import React from 'react';
 import user from '../../assets/icons/747376.svg';
 import clock from '../../assets/icons/149316.svg';
+import Product from '../Product';
+import Products from '../../products.json';
 
 const Sidebar = () => {
     return (
@@ -26,6 +28,10 @@ const Sidebar = () => {
                         <button>Choose time</button>
                     </div>
                 </div>
+            </div>
+            <div className="products-list">
+                <Product product={ Products[0] }/>
+                <Product product={ Products[5] }/>
             </div>
         </aside>
     );
