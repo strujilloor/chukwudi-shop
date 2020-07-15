@@ -1,3 +1,34 @@
+# Chukwudi Shop
+
+Chukwudi Shop is a project that demonstrates the design of a virtual store with the integration of firebase authentication.
+
+## Deployment
+
+https://merngrants.netlify.app
+
+## Installation
+
+clone the repository:
+```
+https://github.com/strujilloor/chukwudi-shop.git
+```
+Install the dependencies:
+```
+npm install
+```
+
+## Usage
+
+You can start the project and run server with the command:
+```
+npm start
+```
+Then open http://localhost:3000/ to see your app.
+
+
+When you’re ready to deploy to production, create a minified bundle with npm run build.
+___
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
