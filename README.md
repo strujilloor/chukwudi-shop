@@ -4,7 +4,7 @@ Chukwudi Shop is a project that demonstrates the design of a virtual store with 
 
 ## Deployment
 
-https://merngrants.netlify.app
+https://chukwudi-shop.netlify.app/
 
 ## Installation
 
